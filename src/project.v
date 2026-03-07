@@ -26,8 +26,8 @@ module tt_um_alu4bit (
     //alu logic
     reg[3:0] result;
     wire[3:0] a,b;
-    assign a=ui_n[3:0];
-    assign b=ui_n[7:4];
+    assign a=ui_in[3:0];
+    assign b=ui_in[7:4];
     wire[1:0] op;
     assign op = uio_in[1:0];
     
